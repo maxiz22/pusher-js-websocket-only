@@ -6,9 +6,9 @@ coverage
 node_modules
 lib/
 tmp/
-dist/*/lib/
+#dist/*/lib/
 
-!/dist/*
+#!/dist/*
 !/src/node_modules
 !spec/javascripts/node_modules
 .DS_Store

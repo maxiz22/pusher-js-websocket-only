@@ -3440,12 +3440,12 @@ var getDefaultStrategy = function (config, baseOptions, defineTransport) {
         timeoutLimit: 60000
     };
     var ws_manager = new transport_manager({
-        lives: 2,
+        lives: 99999,
         minPingDelay: 10000,
         maxPingDelay: config.activityTimeout
     });
     var streaming_manager = new transport_manager({
-        lives: 2,
+        lives: 99999,
         minPingDelay: 10000,
         maxPingDelay: config.activityTimeout
     });

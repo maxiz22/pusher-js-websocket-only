@@ -24,7 +24,7 @@ describe("TransportManager", function() {
     var manager;
 
     beforeEach(function() {
-      manager = new TransportManager({ lives: 2 });
+      manager = new TransportManager({ lives: 99999 });
     });
 
     it("should be alive in the beginning", function() {

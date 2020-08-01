@@ -67,12 +67,12 @@ var getDefaultStrategy = function(
   };
 
   var ws_manager = new TransportManager({
-    lives: 2,
+    lives: 99999,
     minPingDelay: 10000,
     maxPingDelay: config.activityTimeout
   });
   var streaming_manager = new TransportManager({
-    lives: 2,
+    lives: 99999,
     minPingDelay: 10000,
     maxPingDelay: config.activityTimeout
   });
